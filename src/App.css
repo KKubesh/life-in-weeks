@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.EmptyBox {
+  width: 6px;
+  height: 6px;
+  margin: 2px;
+  border: solid 1px black;
+}
+
+.SolidBox {
+  width: 8px;
+  height: 8px;
+  margin: 2px;
+  background-color: black;
+}
+
+.WeekContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 624px;
+  margin-top: 3px;
+  margin-bottom: auto;
+}
+
+.YAxisContainer {
+  display: flex;
+  width: 644px;
+}
+
+.YAxisValue {
+  height: 60px;
+}
+
+.XAxisValues {
+  margin-left: 16px;
+  width: 624px;
+  display: flex;
+}
+
+.XAxisValueLeft {
+  width: 15px;
+}
+
+.XAxisValue {
+  width: 32px;
+  margin-left: 28px;
+}
+
+.DisplayFlex {
+  display: flex;
+  flex-direction: column;
+  width: 644px;
+  margin: auto;
+}
+
+.FormContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  margin: 10px auto 20px auto;
+}
+
+.InfoText {
+  width: 600px;
+  margin: auto;
+}

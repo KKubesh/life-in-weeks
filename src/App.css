@@ -66,3 +66,23 @@
   width: 600px;
   margin: auto;
 }
+
+label {
+  font-size: 14px;
+  color: rgb(69, 69, 69);
+    justify-self: start;
+    display: flex;
+    margin: 0px 8px;
+}
+
+input {
+  height: 20px;
+  width: 150px;
+  padding: 4px 8px;
+  margin: 2px 5px;
+}
+
+button {
+  height: 32px;
+  margin: 18px 0px 0px 5px;
+}

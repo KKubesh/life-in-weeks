@@ -61,8 +61,14 @@ export const App: FC = () => {
   return (
     <div className="App">
       <div className="FormContainer">
-        <input type="date" placeholder="Role Start Date" onChange={e => updateStartDate(e)} />
-        <input type="number" placeholder="90" onChange={e => updateYears(e)} />
+        <div className="Label">
+          <label>Start Date (Birth Date)</label>
+          <input className="Input" type="date" placeholder="Role Start Date" onChange={e => updateStartDate(e)} />
+        </div>
+        <div className="Label">
+          <label>Years (Life Span)</label>
+          <input type="number" placeholder="90" onChange={e => updateYears(e)} />
+        </div>
         <button onClick={() => updateCalculatedValues(years, startDate)}>Calculate</button>
       </div>
       <h1>
